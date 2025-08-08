@@ -1,0 +1,27 @@
+# requirements.txt
+
+# --- Core RAG & LangChain Components ---
+langchain
+langchain-chroma
+langchain-nvidia-ai-endpoints
+chromadb
+requests
+tqdm
+
+# --- Text Processing & NLP ---
+spacy
+tiktoken
+PyMuPDF
+python-docx
+# ADDED: Dependencies for the new VLM extractor
+docling-core
+docling
+pypdfium2
+
+# --- Search & Reranking ---
+sentence-transformers
+rank_bm25
+
+# --- Celery for Asynchronous Task Processing ---
+celery
+pymongo
