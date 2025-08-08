@@ -1,5 +1,3 @@
-# IDP with Infinite Vault
-
 This project contains components for text extraction, data ingestion, and a Retrieval-Augmented Generation (RAG) pipeline using Celery workers, a beat scheduler, and a FastAPI application.
 
 ### RabbitMQ
@@ -74,12 +72,12 @@ You can use the provided shell script `run_all_fixed.sh` to start all necessary 
 
 Make sure to give execute permission to the script:
 ```
-chmod +x idp-with-infinite-vault/run_all_fixed.sh
+chmod +x run_all_fixed.sh
 ```
 
 Then run:
 ```
-./idp-with-infinite-vault/run_all_fixed.sh
+./run_all_fixed.sh
 
 
 
